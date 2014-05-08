@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Wed 07 May 2014 11:45:00 PM MSK
+
+BeginCmp
+TimeStamp = /536A821F;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A8221;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A81D8;
+Reference = CON1;
+ValeurCmp = AVR-ISP-10;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A8615;
+Reference = JP1;
+ValeurCmp = JUMPER3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A865B;
+Reference = JP2;
+ValeurCmp = JUMPER3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A862C;
+Reference = R1;
+ValeurCmp = 4k7;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A8659;
+Reference = R2;
+ValeurCmp = 4k7;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A8116;
+Reference = U1;
+ValeurCmp = M25P05;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A87CD;
+Reference = U2;
+ValeurCmp = SPIFLASH_16M;
+IdModule  = DIP-16__600_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /536A8209;
+Reference = U3;
+ValeurCmp = AMS1117;
+IdModule  = SOT223;
+EndCmp
+
+EndListe

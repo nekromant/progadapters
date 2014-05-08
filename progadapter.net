@@ -1,0 +1,102 @@
+# EESchema Netlist Version 1.1 created  Wed 07 May 2014 11:45:00 PM MSK
+(
+ ( /536A821F SM0805 C1 0.1uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /536A8221 SM0805 C2 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /536A81D8 PIN_ARRAY_5x2 CON1 AVR-ISP-10
+  ( 1 /MOSI )
+  ( 2 +5V )
+  ( 3 ? )
+  ( 4 GND )
+  ( 5 /CS )
+  ( 6 GND )
+  ( 7 /SCK )
+  ( 8 GND )
+  ( 9 /MISO )
+  ( 10 GND )
+ )
+ ( /536A8615 PIN_ARRAY_3X1 JP1 JUMPER3
+  ( 1 VCC )
+  ( 2 N-000002 )
+  ( 3 GND )
+ )
+ ( /536A865B PIN_ARRAY_3X1 JP2 JUMPER3
+  ( 1 VCC )
+  ( 2 N-000008 )
+  ( 3 GND )
+ )
+ ( /536A862C SM0805 R1 4k7
+  ( 1 N-000002 )
+  ( 2 /WP )
+ )
+ ( /536A8659 SM0805 R2 4k7
+  ( 1 N-000008 )
+  ( 2 /HOLD )
+ )
+ ( /536A8116 DIP-8__300_ELL U1 M25P05
+  ( 1 /CS )
+  ( 2 /MISO )
+  ( 3 /WP )
+  ( 4 GND )
+  ( 5 /MOSI )
+  ( 6 /SCK )
+  ( 7 /HOLD )
+  ( 8 VCC )
+ )
+ ( /536A87CD DIP-16__600_ELL U2 SPIFLASH_16M
+  ( 1 ? )
+  ( 2 VCC )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /CS )
+  ( 8 /MISO )
+  ( 9 /WP )
+  ( 10 GND )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 /MOSI )
+  ( 16 /SCK )
+ )
+ ( /536A8209 SOT223 U3 AMS1117
+  ( 1 GND )
+  ( 2 VCC )
+  ( 3 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
